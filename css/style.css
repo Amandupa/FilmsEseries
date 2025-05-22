@@ -1,0 +1,134 @@
+html, body {
+  overflow-x: hidden; 
+}
+
+.fixa{
+ position: fixed; top: 0; width: 100%; ;
+
+}
+
+body{
+  padding-top: 50px;
+}
+
+.myButton {
+  cursor: pointer;
+  /html, body {
+  overflow-x: hidden; 
+}
+}
+
+.myButton:hover {
+  font-weight: bold;
+ 
+}
+.naoseleciona{
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+ 
+
+body.back {
+  min-height: 100vh;
+background-image: url('/img/theatre-551797.jpg');  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f4f4fa;
+}
+
+.imglanca{
+  object-fit: cover;
+  width: 350px;
+}
+
+.imgcarousel {
+  height: 600px;
+  object-fit: cover;
+  width:100%;
+}
+.imgcard {
+  height: 300px;
+  object-fit: cover;
+  width:100%;
+  
+}
+.card-title {
+  min-height: 3em;
+}
+.custom-2025 {
+  font-size: 8rem;
+  line-height: 1;
+}
+
+
+
+.custom-caption {
+  background: rgba(20, 20, 35, 0.6); 
+  width: 100%;
+  top: 0;
+  bottom: auto;
+  left: 0;
+  right: 0;
+}
+
+.card.pula {
+  max-width: 300px;
+  border-radius: 12px;
+  box-shadow: 0 8px 8px rgba(10, 10, 30, 0.7); 
+  background: rgba(180, 175, 175, 0.733);
+}
+
+.card.pula:hover {
+  transform: translateY(-10px);
+  transition: 350ms;
+}
+
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(20, 20, 40, 0.2); 
+  background: #000000; 
+}
+
+.linha {
+  width: 300px;
+  height: 4px;
+  background-color: #a78bfa; 
+  margin: 10px auto 0 auto;
+}
+
+.estrela {
+  color: #facc15; 
+  font-size: 40px;
+}
+
+.bloco-transparente {
+  background: rgba(30, 30, 30, 0.26); 
+  backdrop-filter: blur(6px);        
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+.fotomodal {
+  width: 250px;
+}
+.fotomodal2{
+  width: 400px;
+}
+
+
+
+.carrofamilia {
+
+  width: 900px;
+
+}
+
+.a link{
+  text-decoration: none !important;
+}
